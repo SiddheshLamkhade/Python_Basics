@@ -1,0 +1,8 @@
+c=input("Enter: ")
+t=c.isalnum()
+if t==True:
+    rev=c[::-1]            #[starting point:Ending point:decrement]
+    if c==rev:
+        print("It is Palindrome")
+    else:
+        print("It is Not Palindrome")
